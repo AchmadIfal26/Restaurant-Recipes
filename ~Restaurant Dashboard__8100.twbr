@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20241.24.0515.0324                               -->
-<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
@@ -19,6 +19,7 @@
     <WindowsPersistSimpleIdentifiers />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='RestaurantDashboard_17195414794940' path='/workbooks' revision='1.1' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -33,7 +34,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Restaurant Recipes Fix' name='textscan.18l1cyi0vxx8jl13pjizl05d5s05'>
-            <connection class='textscan' directory='G:/Codingan/Google Colab/Restaurant Recipes' filename='Restaurant Recipes Fix.csv' password='' server='' />
+            <connection class='textscan' directory='G:/Codingan/Google Colab/Restaurant Recipes' filename='Restaurant Recipes Fix.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.18l1cyi0vxx8jl13pjizl05d5s05' name='Restaurant Recipes Fix.csv' table='[Restaurant Recipes Fix#csv]' type='table'>
@@ -175,7 +176,7 @@
       <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
       <column-instance column='[RestaurantID]' derivation='None' name='[none:RestaurantID:nk]' pivot='key' type='nominal' />
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/IFAL/AppData/Local/Temp/TableauTemp/#TableauTemp_13yb5e40p6u5gc1cwoylb1tmhzc4.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/27/2024 02:26:34 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/IFAL/AppData/Local/Temp/TableauTemp/#TableauTemp_13yb5e40p6u5gc1cwoylb1tmhzc4.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
@@ -192,7 +193,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MenuCategory</remote-name>
@@ -207,7 +207,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MenuItem</remote-name>
@@ -222,7 +221,6 @@
               <approx-count>16</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Ingredients</remote-name>
@@ -237,7 +235,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Price</remote-name>
@@ -251,7 +248,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>767</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Profitability</remote-name>
@@ -266,7 +262,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -407,26 +402,15 @@
       <datasource-dependencies datasource='federated.15oo2ve18cq0da1ecstbp07p7vqa'>
         <column caption='Menu Category' datatype='string' name='[MenuCategory]' role='dimension' type='nominal' />
         <column datatype='real' name='[Price]' role='measure' type='quantitative' />
-        <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
         <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
         <column-instance column='[MenuCategory]' derivation='None' name='[none:MenuCategory:nk]' pivot='key' type='nominal' />
-        <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
       </datasource-dependencies>
       <filter class='quantitative' column='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]' included-values='in-range-or-null'>
         <min>2.7324096385542163</min>
         <max>25.076760563380283</max>
       </filter>
       <filter class='categorical' column='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]'>
-        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-          <groupfilter function='level-members' level='[none:MenuCategory:nk]' />
-          <groupfilter function='union'>
-            <groupfilter function='member' level='[none:MenuCategory:nk]' member='&quot;Appetizers&quot;' />
-            <groupfilter function='member' level='[none:MenuCategory:nk]' member='%null%' />
-          </groupfilter>
-        </groupfilter>
-      </filter>
-      <filter class='categorical' column='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]'>
-        <groupfilter function='member' level='[none:Profitability:nk]' member='&quot;Low&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+        <groupfilter function='level-members' level='[none:MenuCategory:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
       </filter>
     </shared-view>
   </shared-views>
@@ -440,25 +424,20 @@
           <datasource-dependencies datasource='federated.15oo2ve18cq0da1ecstbp07p7vqa'>
             <column caption='Menu Category' datatype='string' name='[MenuCategory]' role='dimension' type='nominal' />
             <column datatype='real' name='[Price]' role='measure' type='quantitative' />
-            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
             <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MenuCategory]' derivation='None' name='[none:MenuCategory:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <shelf-sorts>
-            <shelf-sort-v2 dimension-to-sort='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[sum:Price:qk]' shelf='columns' />
+            <shelf-sort-v2 dimension-to-sort='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]' shelf='columns' />
           </shelf-sorts>
           <slices>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]</column>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]</column>
-            <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='mark'>
-            <encoding attr='size-bar' field='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[sum:Price:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
             <encoding attr='size-bar' field='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
           </style-rule>
         </style>
@@ -469,7 +448,6 @@
             </view>
             <mark class='Automatic' />
             <encodings>
-              <color column='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]' />
               <text column='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]' />
             </encodings>
             <style>
@@ -495,11 +473,9 @@
             <column caption='Menu Category' datatype='string' name='[MenuCategory]' role='dimension' type='nominal' />
             <column caption='Menu Item' datatype='string' name='[MenuItem]' role='dimension' type='nominal' />
             <column datatype='real' name='[Price]' role='measure' type='quantitative' />
-            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
             <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MenuCategory]' derivation='None' name='[none:MenuCategory:nk]' pivot='key' type='nominal' />
             <column-instance column='[MenuItem]' derivation='None' name='[none:MenuItem:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <shelf-sorts>
             <shelf-sort-v2 dimension-to-sort='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuItem:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]' shelf='rows' />
@@ -507,7 +483,6 @@
           <slices>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]</column>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]</column>
-            <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -545,12 +520,10 @@
             <column caption='Menu Category' datatype='string' name='[MenuCategory]' role='dimension' type='nominal' />
             <column caption='Menu Item' datatype='string' name='[MenuItem]' role='dimension' type='nominal' />
             <column datatype='real' name='[Price]' role='measure' type='quantitative' />
-            <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
             <column caption='Restaurant ID' datatype='string' name='[RestaurantID]' role='dimension' type='nominal' />
             <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MenuCategory]' derivation='None' name='[none:MenuCategory:nk]' pivot='key' type='nominal' />
             <column-instance column='[MenuItem]' derivation='None' name='[none:MenuItem:nk]' pivot='key' type='nominal' />
-            <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
             <column-instance column='[RestaurantID]' derivation='None' name='[none:RestaurantID:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuItem:nk]'>
@@ -567,7 +540,6 @@
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:RestaurantID:nk]</column>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]</column>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]</column>
-            <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -604,24 +576,21 @@
           <datasource-dependencies datasource='federated.15oo2ve18cq0da1ecstbp07p7vqa'>
             <column caption='Menu Category' datatype='string' name='[MenuCategory]' role='dimension' type='nominal' />
             <column datatype='real' name='[Price]' role='measure' type='quantitative' />
-            <_.fcp.ObjectModelTableType.false...column caption='Restaurant Recipes Fix.csv' datatype='integer' name='[__tableau_internal_object_id__].[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]' role='measure' type='quantitative' />
             <column datatype='string' name='[Profitability]' role='dimension' type='nominal' />
-            <_.fcp.ObjectModelTableType.true...column caption='Restaurant Recipes Fix.csv' datatype='table' name='[__tableau_internal_object_id__].[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]' role='measure' type='quantitative' />
-            <column-instance column='[__tableau_internal_object_id__].[Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Price]' derivation='Avg' name='[avg:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Price]' derivation='Count' name='[cnt:Price:qk]' pivot='key' type='quantitative' />
             <column-instance column='[MenuCategory]' derivation='None' name='[none:MenuCategory:nk]' pivot='key' type='nominal' />
             <column-instance column='[Profitability]' derivation='None' name='[none:Profitability:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <slices>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]</column>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]</column>
-            <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style />
         <panes>
-          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
@@ -632,7 +601,7 @@
             </encodings>
           </pane>
         </panes>
-        <rows>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[__tableau_internal_object_id__].[cnt:Restaurant Recipes Fix.csv_B7982758528348C2B52A3F56FA6DCE64:qk]</rows>
+        <rows>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[cnt:Price:qk]</rows>
         <cols>([federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk] * [federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk])</cols>
       </table>
       <simple-id uuid='{C54BB846-639D-4A55-AFE7-43D91E78168F}' />
@@ -662,7 +631,6 @@
           <slices>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]</column>
             <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]</column>
-            <column>[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -821,8 +789,112 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones />
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='24' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98934' id='23' param='vert' type-v2='layout-flow' w='98614' x='693' y='533'>
+                <zone forceUpdate='true' h='6535' id='1' type-v2='text' w='84761' x='693' y='533'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='18'>Restaurant Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37065' id='3' is-fixed='true' name='Restaurant Analysis' w='42381' x='693' y='7068'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37065' id='8' is-fixed='true' name='Average Menu Category' w='42380' x='43074' y='7068'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4600' id='11' name='Corelation Avg Price' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='13853' x='85454' y='533'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8466' id='17' mode='checkdropdown' name='Corelation Avg Price' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuCategory:nk]' type-v2='filter' values='database' w='13853' x='85454' y='8599'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7200' id='18' mode='checkdropdown' name='Corelation Avg Price' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]' type-v2='filter' values='database' w='13853' x='85454' y='17065'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='27667' id='10' is-fixed='true' name='Corelation Avg Price' w='42381' x='693' y='44133'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='27667' id='13' is-fixed='true' name='Average Menu Item' w='42380' x='43074' y='44133'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3466' id='16' mode='checkdropdown' name='Average Price by Restaurant' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:MenuItem:nk]' type-v2='filter' w='13853' x='85454' y='5133'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='27667' id='15' is-fixed='true' name='Average Price by Restaurant' w='84761' x='693' y='71800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
         </devicelayout>
       </devicelayouts>
       <simple-id uuid='{9C1D4F34-40D7-4174-B894-DDE50DCD307D}' />
@@ -847,11 +919,6 @@
           </strip>
           <strip size='2147483647'>
             <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='160'>
-            <card pane-specification-id='0' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]' type='color' />
           </strip>
         </edge>
       </cards>
@@ -911,8 +978,8 @@
         <edge name='right'>
           <strip size='160'>
             <card param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[avg:Price:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
-            <card pane-specification-id='2' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]' type='color' />
-            <card pane-specification-id='2' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]' type='shape' />
+            <card pane-specification-id='4' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]' type='color' />
+            <card pane-specification-id='4' param='[federated.15oo2ve18cq0da1ecstbp07p7vqa].[none:Profitability:nk]' type='shape' />
           </strip>
         </edge>
       </cards>
@@ -995,7 +1062,7 @@
         </viewpoint>
         <viewpoint name='Restaurant Analysis' />
       </viewpoints>
-      <active id='-1' />
+      <active id='17' />
       <simple-id uuid='{C15A50D5-B6BF-47E9-86B2-E828158FCFFE}' />
     </window>
   </windows>
